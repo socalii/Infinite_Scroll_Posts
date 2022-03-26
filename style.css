@@ -75,7 +75,7 @@ h1 {
 }
 
 .loader {
-  /* opacity: 0; */
+  opacity: 0;
   display: flex;
   position: fixed;
   bottom: 50px;
@@ -105,7 +105,7 @@ h1 {
 
 @keyframes bounce {
   0%,
-  100 {
+  100% {
     transform: translateY(0);
   }
 
